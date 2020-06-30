@@ -59,9 +59,9 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus"
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
-   def update_status
-     epic_tragedy[:montague][:hero][:status] = "dead"
-     epic_tragedy[:capulet][:heroine][:status] = "dead"
+def update_status
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
 
    # After your code, the following line will return the altered hash
    epic_tragedy
